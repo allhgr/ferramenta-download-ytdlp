@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ferramenta download"
+version = "0.1.0"
+description = ""
+authors = ["B4aidu_ <allison.htompson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+yt-dlp = "^2024.9.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -26,7 +26,7 @@ def baixar_audio_mp3(file_path, pasta_destino):
 
         # Baixar e converter cada URL encontrada para MP3
         for link in links:
-            # Configurações do yt-dlp para converter para MP3
+            # Configurações da API yt-dlp para converter para MP3
             ydl_opts = {
                 'format': 'bestaudio/best',  # Escolhe a melhor qualidade de áudio disponível
                 'outtmpl': os.path.join(pasta_destino, '%(title).50s.%(ext)s'),  # Nome do arquivo de saída limitado a 50 caracteres
@@ -45,11 +45,3 @@ def baixar_audio_mp3(file_path, pasta_destino):
             except yt_dlp.utils.DownloadError as e:
                 print(f"Erro ao baixar o vídeo: {e}")
 
-# Caminho do arquivo .txt com os links dos vídeos
-caminho_do_arquivo = 'links.txt'
-
-# Caminho da pasta onde os arquivos MP3 serão salvos
-pasta_destino = 'Musicas'
-
-# Chamar a função para baixar os áudios em MP3
-baixar_audio_mp3(caminho_do_arquivo, pasta_destino)

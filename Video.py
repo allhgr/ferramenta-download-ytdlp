@@ -44,11 +44,3 @@ def baixar_videos(file_path, pasta_destino):
             except yt_dlp.utils.DownloadError as e:
                 print(f"Erro ao baixar o vídeo: {e}")
 
-# Caminho do arquivo .txt com os links dos vídeos
-caminho_do_arquivo = 'links.txt'
-
-# Caminho da pasta onde os vídeos serão salvos
-pasta_destino = 'Videos'
-
-# Chama a função para baixar os vídeos
-baixar_videos(caminho_do_arquivo, pasta_destino)
