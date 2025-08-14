@@ -1,5 +1,3 @@
-Perfeito! Aqui está o README completo em **um único bloco** pronto para colar no seu `README.md`:
-
 ````markdown
 # Ferramenta Download
 
@@ -92,5 +90,3 @@ Opção:
 ## 📜 Licença
 
 Uso pessoal. Respeite os termos de serviço das plataformas de onde os conteúdos são baixados.
-
-```
