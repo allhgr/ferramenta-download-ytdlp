@@ -1,0 +1,16 @@
+# Ignorar pastas de saída de downloads
+Videos/
+Musicas/
+
+# Ignorar arquivos do ambiente virtual
+.venv/
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos do sistema (Windows)
+Thumbs.db
+.DS_Store
