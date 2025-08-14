@@ -1,7 +1,9 @@
 ````markdown
 # Ferramenta Download
 
-Ferramenta em Python para baixar vídeos ou músicas de várias plataformas utilizando [yt-dlp](https://github.com/yt-dlp/yt-dlp) e [FFmpeg](https://ffmpeg.org/).  
+Ferramenta em Python para baixar vídeos ou músicas de várias plataformas utilizando:
+[yt-dlp](https://github.com/yt-dlp/yt-dlp) 
+[FFmpeg](https://ffmpeg.org/).  
 Suporta links misturados em um arquivo `.txt`, filtrando automaticamente apenas os links válidos.
 
 ## 📋 Requisitos
