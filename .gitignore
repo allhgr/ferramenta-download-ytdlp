@@ -1,6 +1,7 @@
 # Ignorar pastas de saída de downloads
 Videos/
 Musicas/
+links.txt
 
 # Ignorar arquivos do ambiente virtual
 .venv/
